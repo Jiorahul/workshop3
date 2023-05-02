@@ -1,0 +1,35 @@
+java programm create a class called book instance variables,title,aouthor,and numof page,include a method to calculte price of book based on num page
+start
+class Book{
+privet String title;
+privet String aouthor;
+privet int No of page;
+privet int price;
+}
+public void book(){
+String title="Novel st";
+String aouthor="m.disuza";
+int Page=254;
+int price=1000;
+
+}
+public String gettitle(){return title;}
+pulic void Settitle(String title){this.title=title;}
+pulic String getauothor(){return aouthor;}
+public void Setaouthor(){this.aouthor=aouthor;}
+public int getpage(){return page;}
+public int Setpage(){this.page=page;}
+public int getprice(){return price;}
+public void Setprice(){this.price=price;}
+
+public class Book_test(){
+public static void main(String args[]){
+book b=new book();
+system.out.println(b.gettitle());
+system.out.println(b.getaouthor());
+system.out.println(b.page());
+system.out.println(b.price());
+}
+}
+
+
